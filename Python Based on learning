@@ -1,0 +1,17 @@
+#!/user/bin/env python3
+#-*- coding:utf-8 -*-
+# 编码
+s = 'Python-中文'
+print(s)
+b = s.encode('utf-8') #把字符串转换成utf-8的形式
+print(b)
+print(b.decode('utf-8')) #把utf-8的形式转换成字符串
+# 占位符
+# %d 整数
+ # '%2d-%02d' % (3, 1)
+# %f 浮点数
+ # '%.2f' % 3.1415926
+ #  r = 86.23
+ # print('%.1f'%r)
+# %s 字符串
+# %x 十六进制整数
